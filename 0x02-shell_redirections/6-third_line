@@ -1,3 +1,2 @@
 #!/bin/bash
-line=$(awk 'NR == 3 {print}' iacta)
-echo $line
+head -3 iacta | tail -1
