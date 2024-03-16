@@ -3,7 +3,7 @@ server {
     listen [::]:80 default_server;
 
     # Use IP of server as domain name
-    server_name 52.201.229.18
+    server_name 52.201.229.18;
 
     # Customize HTTP response header
     add_header X-Served-By 228560-web-01;
